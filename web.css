@@ -457,7 +457,19 @@ img{
 }
 
 .skills{
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.skills-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    margin-top: 2rem;
 }
 
 .diff-skills::after {
